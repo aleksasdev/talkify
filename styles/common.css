@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;700;900&family=Satisfy&display=swap');
+
 *{
    padding: 0;
    margin: 0;
    box-sizing: border-box;
+   font-family: var(--font-display);
 }
 
 :root{
@@ -22,4 +25,10 @@
    --color-secondary: #f6f6f6;
    --color-secondary-tint: #fff;
    --color-secondary-shade: #23272a;
+
+   --font-display: 'Noto Sans', sans-serif;
+}
+
+.text-highlight-style{
+   font-weight: 900;
 }
