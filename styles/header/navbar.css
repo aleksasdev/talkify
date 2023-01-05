@@ -1,8 +1,10 @@
 @import url("../common.css");
 
 nav{
-   padding: var(--padding3);
+   position: absolute;
+   top: 0;
 }
 nav img{
-   height: 1.8rem;
+   object-fit: cover;
+   height: 2rem;
 }
