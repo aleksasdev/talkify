@@ -1,0 +1,8 @@
+@import url("../common.css");
+
+nav{
+   padding: var(--padding3);
+}
+nav img{
+   height: 1.8rem;
+}

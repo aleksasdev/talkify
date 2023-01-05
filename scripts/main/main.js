@@ -22,10 +22,5 @@ function renderPage(){
    if(PAGE_CURRENT === PAGE_SUBSCRIBE){
       
    }
-
-   var button = document.createElement('a');
-   button.textContent = "test";
-   button.href = PAGE_FEATURES;
-   new HeaderController().append(button);
 }
 renderPage();

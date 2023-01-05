@@ -8,8 +8,8 @@ export default class Navbar{
    render(){
       this.container = document.createElement('nav');
 
-      this.logo = document.createElement('img');
-      this.logo.src = "https://pbs.twimg.com/profile_images/1066342574393368576/epGHohR0_400x400.jpg";
+      this.logo = document.createElement('svg');
+      this.logo.innerHTML = "../../../../assets/header/logo_shade.svg";
 
       this.container.append(this.logo);
 
