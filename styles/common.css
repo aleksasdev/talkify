@@ -29,6 +29,13 @@
    --font-display: 'Noto Sans', sans-serif;
 }
 
+.section-style{
+   margin: 2rem 0;
+   padding: 1rem 3rem;
+   column-gap: 4rem;
+   row-gap: 2rem;
+}
+
 .text-highlight-style{
    font-weight: 900;
 }
