@@ -1,0 +1,118 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10vh 20vw;                  // updatinti kai bus supullinta
+        width: 60%;
+
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 480px;
+            background-color: #36393f;       // update kai bus padarytas pull
+            align-content: center;
+            padding: 32px;
+            color: var(--color-secondary);
+            border-radius: 5px;
+
+            h1 {
+                text-align: center;
+                margin-bottom: 15px;
+                font-size: 24px;
+            }
+
+            input, select {
+                background-color: var(--color-secondary-shade);
+                margin-bottom: 20px;
+                height: 40px;
+                padding: 10px;
+                border: none;
+                border-radius: 3px;
+                color: var(--color-secondary);
+                font-size: 16px;
+                font-weight: 500;
+            }
+
+            label {
+                margin-bottom: 8px;
+                font-weight: 700;
+                font-size: 14px;
+                color: #a6a9ac;
+            }
+
+            #birthdate {
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+                gap: 10px;
+                margin-bottom: 10px;
+                select {
+                    width: 34%;
+                }
+            }
+
+            #ToF_PP_Container, #email_subscription_container {
+                display: flex;
+                align-content: center;
+                gap: 5px;
+                input {
+                    height: 24px;
+                    width: 24px;
+                    border-radius: 3px;
+                    margin-right: 5px;
+                    margin-top: 3px;
+                }
+                input[type="checkbox"] {
+                    accent-color: var(--color-primary-tint);
+                    }
+            
+                
+                label {
+                    font-size: 12px;
+                    line-height: 16px;
+                    font-weight: 400;
+                    width: 90%;
+                }
+            }
+
+            #ToF_PP_Container {
+                label {
+                    font-weight: 600;
+                }
+
+            }
+
+            a {
+                color: #05a4e4;
+                font-weight: bold;
+                text-decoration: none;
+            }
+
+            button {
+                width: 100%;
+                height: 44px;
+                font-size: 16px;
+                line-height: 24px;
+                font-weight: 700;
+                color: var(--color-secondary);
+                background-color: var(--color-primary);
+                border: none;
+                border-radius: 3px;
+                margin-top: 15px;
+            }
+
+            #haveAccount {
+                margin-top: 8px;
+                text-decoration: none;
+                font-size: 14px;
+                font-weight: bolder;
+            }
+
+        }
+    }
+}
