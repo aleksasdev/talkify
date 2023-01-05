@@ -15,22 +15,25 @@ export default class Navbar{
       this.menu = document.createElement('div');
       this.menu.classList.add('menu');
 
-      this.container.append(this.logo);
 
-      this.menu.append(this.createButton("Home"));
-      this.menu.append(this.createButton("Features"));
-      this.menu.append(this.createButton("Subscribe"));
+      this.createButton("Home", "index.html");
+      this.createButton("Features", "features.html");
+      this.createButton("Subscribe", "subscribe.html");
 
-      this.cta = document.createElement('')
+      this.cta = document.createElement('div');
+      this.cta.classList.add('button-style');
+      this.cta.textContent = "Subscribe";
 
+      this.container.append(this.logo, this.menu, this.cta);
       return this.container;
    }
 
-   createButton(text){
+   createButton(text, href){
       this.button = document.createElement("a");
       this.button.classList.add('menu-button');
+      this.button.href = href;
       this.button.textContent = text;
 
-      this.container.append(this.button);
+      this.menu.append(this.button);
    }
 }

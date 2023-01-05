@@ -3,8 +3,19 @@
 nav{
    position: absolute;
    top: 0;
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   color: green; 
 }
 nav img{
    object-fit: cover;
    height: 2rem;
+}
+nav .menu{
+   display: flex;
+   gap: 1rem;
+}
+nav .menu a{
+   text-decoration: none;
 }
