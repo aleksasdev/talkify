@@ -22,7 +22,7 @@ export default class Navbar{
 
       this.cta = document.createElement('div');
       this.cta.classList.add('button-style');
-      this.cta.textContent = "Subscribe";
+      this.cta.textContent = "Join";
 
       this.container.append(this.logo, this.menu, this.cta);
       return this.container;
