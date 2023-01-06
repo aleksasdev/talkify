@@ -10,6 +10,7 @@ nav{
    color: white;
    font-weight: 500;
    margin-top: 2em;
+   padding: var(--padding-sides);
 }
 nav img{
    object-fit: cover;
