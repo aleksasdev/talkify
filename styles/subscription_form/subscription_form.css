@@ -1,15 +1,14 @@
+@import url("../../styles/main/common.css");
+
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-image: url("/assets/subscribtion_form/background.png");
 }
 body main {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 10vh 20vw;
-  width: 60%;
+  height: 100vh;
+  padding: var(--padding-sides);
 }
 body main form {
   display: flex;
@@ -20,6 +19,7 @@ body main form {
   padding: 32px;
   color: var(--color-secondary);
   border-radius: 5px;
+  margin-top: 4rem;
 }
 body main form h1 {
   text-align: center;

@@ -72,7 +72,7 @@
   grid-template: 1fr 1fr/1fr 1fr;
   grid-column-gap: 20px;
   grid-row-gap: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 80px;
 }
 #feature_cards #cards_container .card {
   display: flex;
