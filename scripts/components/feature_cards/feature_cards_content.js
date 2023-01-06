@@ -30,5 +30,3 @@ let cards =[
         btnText: 'Plačiau',
     }),
     ]
-
-document.querySelector('#cards_container').append(cards)
