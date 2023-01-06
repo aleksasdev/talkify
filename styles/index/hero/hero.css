@@ -36,21 +36,27 @@ section#hero{
     height: 630px;
     width: 100%;
     position: absolute;
-    z-index: -10;
-    background-color:var(--color-primary);
+    z-index: -9;
+    background-color:var(--color-hero);
     bottom: 0;
+    
+}
+#skyImage > img{
+    max-width: unset;
+    max-height: unset;
+    background-size: cover;
+    
 }
 #doodlesImage{
-    position: fixed;
+    position: absolute;
     z-index: -8;
-    top: 240px;
+    bottom: 0;
     right: 0;
 }
 #chickensImage{
-    position: fixed;
+    position: absolute;
     z-index: -8;
-    top: 247px;
-    left: 0px;
+    bottom: 0;
 }
 #buttons > button{
     width: 260px;
