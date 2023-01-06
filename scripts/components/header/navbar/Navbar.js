@@ -9,19 +9,19 @@ export default class Navbar{
       this.container = document.createElement('nav');
 
       this.logo = document.createElement("img");
-      this.logo.src = "../../../../assets/header/logo_tint.svg";
+      this.logo.src = "../../../../assets/header/logo.png";
 
       this.menu = document.createElement('div');
       this.menu.classList.add('menu');
       document.querySelector('header').append(this.menu);
 
-      this.createButton("Home", "index.html");
-      this.createButton("Features", "features.html");
-      this.createButton("Subscribe", "subscribe.html");
+      this.createButton("Pagrindinis", "index.html");
+      this.createButton("Privalumai", "features.html");
+      this.createButton("Išbandyti", "subscribe.html");
 
       this.cta = document.createElement('div');
       this.cta.classList.add('button-style');
-      this.cta.textContent = "Join";
+      this.cta.textContent = "Prisijungti";
 
       this.container.append(this.logo, this.cta);
       return this.container;
