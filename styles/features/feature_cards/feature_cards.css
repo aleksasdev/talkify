@@ -103,20 +103,21 @@
   -moz-box-shadow: 3px 6px 19px -6px rgba(128, 128, 128, 0.75);
   transition: all 0.2s 0.2s;
 }
-#feature_cards #all_features_btn {
+#feature_cards .all_features_btn {
   padding: 14px 32px;
-  background-color: var(--color-secondary-shade);
+  background-color: var(--color-primary);
   color: var(--color-secondary);
   border-radius: 28px;
   font-size: 20px;
   border: none;
   margin-bottom: 20px;
+  text-decoration: none;
 }
-#feature_cards #all_features_btn:hover {
+#feature_cards .all_features_btn:hover {
   box-shadow: 3px 6px 14px -6px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 3px 6px 14px -6px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 3px 6px 14px -6px rgba(0, 0, 0, 0.75);
-  transition: all 0.2s 0.2s;
+  transition: all 0.2s;
   transform: translateY(-3px);
-  background-color: rgba(35, 39, 42, 0.9333333333);
+  background-color: var(--color-primary-tint);
 }/*# sourceMappingURL=feature_cards.css.map */
