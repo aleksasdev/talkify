@@ -13,7 +13,7 @@ export default class Navbar{
 
       this.menu = document.createElement('div');
       this.menu.classList.add('menu');
-
+      document.querySelector('header').append(this.menu);
 
       this.createButton("Home", "index.html");
       this.createButton("Features", "features.html");
@@ -23,7 +23,7 @@ export default class Navbar{
       this.cta.classList.add('button-style');
       this.cta.textContent = "Join";
 
-      this.container.append(this.logo, this.menu, this.cta);
+      this.container.append(this.logo, this.cta);
       return this.container;
    }
 
