@@ -13,14 +13,14 @@ export default class Navbar{
 
       this.menu = document.createElement('div');
       this.menu.classList.add('menu');
-      document.querySelector('header').append(this.menu);
+      new HeaderController().append(this.menu);
 
       this.createButton("Pagrindinis", "index.html");
       this.createButton("Privalumai", "features.html");
       this.createButton("Išbandyti", "subscribe.html");
 
       this.cta = document.createElement('div');
-      this.cta.classList.add('button-style');
+      this.cta.classList.add('cta-button', 'button-style');
       this.cta.textContent = "Prisijungti";
 
       this.container.append(this.logo, this.cta);
