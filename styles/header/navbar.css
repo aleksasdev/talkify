@@ -1,31 +1,39 @@
 @import url("../main/common.css");
 
-nav{
+header{
    position: absolute;
    top: 0;
+   z-index: 50;
+   width: 100%;
+   padding: var(--pading-sides);
+   margin-top: 2rem;
+   font-weight: 600;
+}
+nav{
    display: flex;
    justify-content: space-between;
-   width: 100%;
-   z-index: 50;
    color: white;
-   font-weight: 500;
-   margin-top: 2em;
    padding: var(--padding-sides);
 }
 nav img{
    object-fit: cover;
    height: 1.5rem;
 }
-nav .menu{
+header .menu{
    display: flex;
+   justify-content: center;
    gap: 1.5rem;
    font-weight: inherit;
+   z-index: 60;
+   position: absolute;
+   padding: var(--padding-sides);
+   width: 100%;
 }
-nav .menu a{
+header .menu a{
    text-decoration: none;
    color: white;
    font-weight: inherit;
 }
-nav .menu a:hover{
+header .menu a:hover{
    text-decoration: underline;
 }
