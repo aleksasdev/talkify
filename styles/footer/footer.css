@@ -1,0 +1,149 @@
+@import url("../common.css");
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+footer{
+  color: white;
+  background-color: var(--color-secondary-shade);
+  box-sizing: border-box;
+  padding: 5rem 7rem 4rem 7rem;  /* Šitą reikės pakeisti, jei norim visi suvienodinti. section-style klasės settingai labai toli nuo dizaino.. */
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.upperFooterWrap{
+  border-bottom: 1px solid var(--color-primary);  
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 3rem;
+}
+
+.firstColumnWrap{
+  width: 30%;
+}
+
+.wrapOfLists{
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.slogan{
+  font-size: 32px;
+  font-weight: 900;
+  font-family: 'Bowlby One SC', cursive;
+  width: 200px;
+  padding: 0;
+  margin: 0;
+  line-height: 34px;
+  letter-spacing: 2px;
+  color: var(--color-primary);
+  margin-bottom: 20px;
+}
+
+.languages{
+  background-color: var(--color-secondary-shade);
+  color: white;
+  padding:  0 5px;
+  margin-bottom: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.languages > option{
+   background-color: var(--color-secondary-shade);
+   color: white;
+}
+
+.socialWrap{
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+}
+
+.socialWrap img{
+  height: 24px;
+  width: auto;
+}
+
+.columnWrap{
+  width: 25%;
+}
+
+.footerGroupName{
+  color: var(--color-primary);
+  margin-bottom: 10px;
+}
+
+.columnWrap a{
+  text-decoration: none;
+  color: white;
+}
+.columnWrap a:hover{
+  text-decoration: underline;  
+}
+
+.columnWrap li{
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+.lowerFooterWrap{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+}
+
+.footerLogo{
+  width: 120px;
+}
+
+.signUp{
+  background-color: var(--color-primary);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+}
+.signUp:hover{
+  background-color: var( --color-primary-tint);
+}
+
+@media (max-width: 1025px) {
+ .firstColumnWrap{
+  width: 50%;
+ }
+ .wrapOfLists{
+  width: 50%;
+  flex-wrap: wrap;
+  row-gap: 20px;
+ }
+ .columnWrap{
+   width: 50%;
+ }
+}
+
+@media (max-width: 780px) {
+  .upperFooterWrap{
+    flex-direction: column;
+    row-gap: 50px;
+  }
+  .firstColumnWrap{
+    width: 100%;
+   }
+   .wrapOfLists{
+    width: 100%;
+    flex-wrap: wrap;
+    row-gap: 20px;
+   }
+   .columnWrap{
+     width: 50%;
+   }
+   .slogan{
+    width: 100%;
+   }
+}
