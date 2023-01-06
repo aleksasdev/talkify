@@ -24,7 +24,8 @@ export default class Navbar{
       this.createButton("Privalumai", "features.html");
       this.createButton("Išbandyti", "subscribe.html");
 
-      this.cta = document.createElement('div');
+      this.cta = document.createElement('a');
+      this.cta.href = "subscribe.html";
       this.cta.classList.add('cta-button', 'button-style');
       this.cta.textContent = "Prisijungti";
 
