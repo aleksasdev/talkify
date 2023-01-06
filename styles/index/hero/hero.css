@@ -94,7 +94,7 @@ section#hero{
     color: var(--color-primary);
 }
 
-@media (max-width: 1650px){
+@media (max-width: 1700px){
     #doodlesImage{
         right: -11rem;
     }
