@@ -1,14 +1,18 @@
 #info1{
     width: 100%;
     display: flex;
+    justify-content: center;
 }
 
 #info2{
     display: flex;
     background-color:#f6f6f6 ;
+    justify-content: center;
 }
 #info3{
     display: flex;
+    width: 100%;
+    justify-content: center;
 }
 
 h2{
@@ -32,6 +36,8 @@ p{
     width: 60%;
     float: left;
     padding-right: 10px;
+    max-width: 678px;
+    max-height: 440px;
 
 }
 
@@ -39,6 +45,8 @@ p{
     width: 70%;
     float: right;
     padding-left: 80px;
+    max-width: 678px;
+    max-height: 440px;
 }
 
 .text{
@@ -112,4 +120,18 @@ background-image: linear-gradient(135deg, #8547c6 10%, #b845c1 50%, #ab5d8a);
     text-align: center;
     background-color:#f6f6f6;
     padding: var(--padding-sides);
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+}
+
+.show{
+    position: relative;
+    transform: translateY(0);
+    opacity: 0;
+    transition: 3s all ease;
+}
+
+.show.active{
+    opacity: 1;
+    transform: translateY(0)
 }
