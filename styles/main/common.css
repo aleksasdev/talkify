@@ -38,11 +38,9 @@
 }
 
 .section-style{
-   margin: 2rem 0;
-   padding: 1rem 0;
+   padding-top: 4rem !important;
+   padding-bottom: 4rem !important;
    padding: var(--padding-sides);
-   column-gap: 4rem;
-   row-gap: 2rem;
 }
 
 .text-highlight-style{
