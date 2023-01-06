@@ -12,12 +12,13 @@ header{
 nav{
    display: flex;
    justify-content: space-between;
+   align-items: flex-start;
    color: white;
    padding: var(--padding-sides);
 }
 nav img{
    object-fit: cover;
-   height: 1.5rem;
+   height: 2.1rem;
 }
 header .menu{
    display: flex;
