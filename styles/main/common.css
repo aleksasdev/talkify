@@ -4,6 +4,7 @@
 @import url('../index/index-body.css');
 @import url('main.css');
 @import url('../footer/footer.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css');
 
 *{
    padding: 0;
