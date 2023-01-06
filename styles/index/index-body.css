@@ -13,6 +13,7 @@
 
 h2{
     font-size: 48px;
+    
 }
 
 p{
@@ -91,4 +92,9 @@ background-image: linear-gradient(135deg, #8547c6 10%, #b845c1 50%, #ab5d8a);
     color: black;
     background-color: white;
     text-decoration: none;
+}
+
+.btn:hover{
+    color: var(--color-primary);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
