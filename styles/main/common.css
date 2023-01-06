@@ -35,6 +35,9 @@
    --color-secondary-tint: #fff;
    --color-secondary-shade: #23272a;
 
+   --size-mobile: 600px;
+   --size-tablet: 1600px;
+
    --font-display: 'Noto Sans', sans-serif;
 }
 
@@ -46,6 +49,23 @@
 
 .text-highlight-style{
    font-family: 'Bowlby One SC', cursive;
+}
+
+.button-style{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: var(--color-primary);
+   padding: 0.6rem;
+   border-radius: 20px;
+   cursor: pointer;
+   z-index: 550;
+   user-select: none;
+}
+.button-style:hover{
+   transition-duration: 0.7s;
+   color: var(--color-primary);
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 /* Mobile */
