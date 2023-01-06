@@ -62,6 +62,7 @@
    cursor: pointer;
    z-index: 550;
    user-select: none;
+   text-decoration: none;
 }
 .button-style:hover{
    transition-duration: 0.7s;
