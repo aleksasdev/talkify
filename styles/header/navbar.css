@@ -8,18 +8,22 @@ nav{
    width: 100%;
    z-index: 50;
    color: white;
+   font-weight: 500;
+   margin-top: 2em;
 }
 nav img{
    object-fit: cover;
-   height: 2rem;
+   height: 1.5rem;
 }
 nav .menu{
    display: flex;
-   gap: 1rem;
+   gap: 1.5rem;
+   font-weight: inherit;
 }
 nav .menu a{
    text-decoration: none;
    color: white;
+   font-weight: inherit;
 }
 nav .menu a:hover{
    text-decoration: underline;

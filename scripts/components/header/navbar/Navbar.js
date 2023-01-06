@@ -7,7 +7,7 @@ export default class Navbar{
 
    render(){
       this.container = document.createElement('nav');
-      this.container.classList.add('section-style');
+      // this.container.classList.add('section-style');
 
       this.logo = document.createElement("img");
       this.logo.src = "../../../../assets/header/logo_tint.svg";
