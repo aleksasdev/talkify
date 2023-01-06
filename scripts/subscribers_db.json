@@ -1,0 +1,40 @@
+{
+  "subscribers": [
+    {
+      "email": "dovydas@gmail.com",
+      "username": "username",
+      "password": "password",
+      "birthdate": {
+        "day": "17",
+        "month": "may",
+        "year": "1956"
+      },
+      "ToS_PP": true,
+      "email_subscription": true,
+      "id": 1
+    },
+    {
+      "email": "Test@gmail.com",
+      "username": "Test Name",
+      "password": "Password testing",
+      "birthdate": {
+        "day": "18",
+        "month": "apr",
+        "year": "1957"
+      },
+      "ToS_PP": true,
+      "email_subscription": false,
+      "id": 2
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
