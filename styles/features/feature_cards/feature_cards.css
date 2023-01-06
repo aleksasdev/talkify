@@ -2,7 +2,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
   gap: 20px;
+  width: 90%;
 }
 #feature_cards #featured_cards {
   display: flex;
@@ -18,20 +22,28 @@
   justify-content: space-between;
   border-radius: 8px;
 }
+#feature_cards #featured_cards .featured_card div {
+  margin-bottom: 20px;
+}
+#feature_cards #featured_cards .featured_card .feature {
+  display: flex;
+  align-items: center;
+}
+#feature_cards #featured_cards .featured_card .feature p {
+  font-size: 20px;
+  line-height: 28px;
+  margin: 0px;
+}
+#feature_cards #featured_cards .featured_card .feature i {
+  margin-top: 4px;
+  margin-right: 10px;
+  font-size: 24px;
+}
 #feature_cards #featured_cards .featured_card h3 {
   font-style: italic;
   margin-bottom: 20px;
   font-size: 34px;
   font-weight: 900;
-}
-#feature_cards #featured_cards .featured_card p {
-  font-size: 20px;
-  line-height: 28px;
-  margin: 0px;
-}
-#feature_cards #featured_cards .featured_card i {
-  margin-top: 4px;
-  margin-right: 10px;
 }
 #feature_cards #featured_cards .featured_card .card_subscribe_btn {
   width: 100%;

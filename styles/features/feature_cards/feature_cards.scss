@@ -19,22 +19,30 @@
             flex-direction: column;
             justify-content: space-between;
             border-radius: 8px;
-
+            div{
+                margin-bottom: 20px;
+            }
+            .feature {
+                display: flex;
+                align-items: center;
+                p {
+                    font-size: 20px;
+                    line-height: 28px;
+                    margin: 0px;
+                }
+                i {
+                    margin-top: 4px;
+                    margin-right: 10px;
+                    font-size: 24px;
+                }
+            }
             h3 {
                 font-style: italic;
                 margin-bottom: 20px;
                 font-size: 34px;
                 font-weight: 900;
             }
-            p {
-                font-size: 20px;
-                line-height: 28px;
-                margin: 0px;
-            }
-            i {
-                margin-top: 4px;
-                margin-right: 10px;
-            }
+
             .card_subscribe_btn {
                 width: 100%;
                 padding: 16px 7px;
