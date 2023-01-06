@@ -9,11 +9,12 @@
 }
 #heroText{
     color: white;
-    width: 40%;
+    width: 29rem;
 }
 #heroText h1{
    line-height: 4rem;
    font-size: 4rem;
+   width: 30rem;
 }
 #heroText p{
    font-size: 1.1rem;
