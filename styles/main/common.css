@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&family=Satisfy&display=swap');
-@import url('header/navbar.css');
-@import url('index/index-body.css');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+@import url('../header/navbar.css');
+@import url('../index/index-body.css');
 
 *{
    padding: 0;
@@ -25,6 +26,10 @@
    --color-primary-tint: #7983f5;
    --color-primary-shade: #2331be;
 
+
+   --color-hero: #404EED;
+
+
    --color-secondary: #f6f6f6;
    --color-secondary-tint: #fff;
    --color-secondary-shade: #23272a;
@@ -40,5 +45,5 @@
 }
 
 .text-highlight-style{
-   font-weight: 900;
+   font-family: 'Bowlby One SC', cursive;
 }
