@@ -10,7 +10,7 @@ export default class Navbar{
       this.container.classList.add('section-style');
 
       this.logo = document.createElement("img");
-      this.logo.src = "../../../../assets/header/logo_shade.svg";
+      this.logo.src = "../../../../assets/header/logo_tint.svg";
 
       this.menu = document.createElement('div');
       this.menu.classList.add('menu');

@@ -6,6 +6,8 @@ nav{
    display: flex;
    justify-content: space-between;
    width: 100%;
+   z-index: 50;
+   color: white;
 }
 nav img{
    object-fit: cover;
@@ -17,4 +19,8 @@ nav .menu{
 }
 nav .menu a{
    text-decoration: none;
+   color: white;
+}
+nav .menu a:hover{
+   text-decoration: underline;
 }
