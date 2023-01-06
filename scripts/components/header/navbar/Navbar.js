@@ -8,8 +8,13 @@ export default class Navbar{
    render(){
       this.container = document.createElement('nav');
 
+      this.logoWrapper = document.createElement('a');
+      this.logoWrapper.classList.add('logo-wrapper');
+      this.logoWrapper.href = "/";
+
       this.logo = document.createElement("img");
       this.logo.src = "../../../../assets/header/logo.png";
+      this.logoWrapper.append(this.logo);
 
       this.menu = document.createElement('div');
       this.menu.classList.add('menu');
@@ -23,7 +28,7 @@ export default class Navbar{
       this.cta.classList.add('cta-button', 'button-style');
       this.cta.textContent = "Prisijungti";
 
-      this.container.append(this.logo, this.cta);
+      this.container.append(this.logoWrapper, this.cta);
       return this.container;
    }
 

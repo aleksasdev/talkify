@@ -17,9 +17,15 @@ nav{
    color: white;
    padding: var(--padding-sides);
 }
-nav img{
+nav .logo-wrapper{
    object-fit: cover;
    height: 2.1rem;
+   cursor: pointer;
+   z-index: 100;
+}
+nav .logo-wrapper img{
+   height: 100%;
+   width: 100%;
 }
 header .menu{
    display: flex;
