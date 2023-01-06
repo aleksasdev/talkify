@@ -18,7 +18,6 @@
 h2{
     font-size: 48px;
     font-weight: 900;
-    
 }
 
 p{
@@ -76,25 +75,33 @@ p{
 }
 
 #subscribePart{
-display:flex;
-justify-content: space-between;
-background-image: linear-gradient(135deg, #8547c6 10%, #b845c1 50%, #ab5d8a);
+    padding: var(--padding-sides);
+    display: flex;
+    position: relative;
+    height: 30rem;
+    background-image: linear-gradient(135deg, #8547c6 10%, #b845c1 50%, #ab5d8a);
 }
-
+#subscribePart .sideImage{
+    position: absolute;
+}
+#subscribePart .right{
+    right: 0;
+}
+#subscribePart .left{
+    left: 0;
+}
 .textBox{
     display: flex;
-    margin-top: 120px;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     text-align: center;
-    width: 50%;
-    padding-left: 20px;
-    padding-right: 20px;
+    width: 100%;
 }
-
 .textBox h2{
     color: white;
     padding-bottom: 20px;
+    width: 35rem;
 }
 
 .btn{
