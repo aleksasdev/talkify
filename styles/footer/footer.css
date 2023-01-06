@@ -1,6 +1,4 @@
 @import url("../common.css");
-@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 footer{
   color: white;
@@ -32,8 +30,6 @@ footer{
 
 .slogan{
   font-size: 32px;
-  font-weight: 900;
-  font-family: 'Bowlby One SC', cursive;
   width: 200px;
   padding: 0;
   margin: 0;
