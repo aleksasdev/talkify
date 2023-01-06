@@ -54,7 +54,7 @@
    }
 }
 /* Tablet */
-@media (max-width: 1400px){
+@media (max-width: 1600px){
    :root{
       --padding-sides: 0 3rem;
    }
