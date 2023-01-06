@@ -1,0 +1,66 @@
+@import url(../../common.css);
+section#hero{
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+#heroText{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 140px;
+}
+#heroText > h1{
+    width: 35%;
+    font-size: 60px;
+    color: white;
+    text-transform: uppercase;
+    font-family:'Noto Sans', sans-serif;
+    font-weight: 900;
+    text-align: center;
+}
+#heroText > p{
+    width: 40%;
+    text-align: center;
+    color: white;
+    font-size: larger;
+    font-family:'Noto Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+#skyImage{
+    height: 630px;
+    width: 100%;
+    position: absolute;
+    z-index: -10;
+    background-color:var(--color-primary);
+    bottom: 0;
+}
+#doodlesImage{
+    position: fixed;
+    z-index: -8;
+    top: 240px;
+    right: 0;
+}
+#chickensImage{
+    position: fixed;
+    z-index: -8;
+    top: 247px;
+    left: 0px;
+}
+#buttons > button{
+    width: 260px;
+    height: 55px;
+    background-color: #36393F;
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+    border-radius: 25px;
+    border: 0;
+    margin-top: 40px;
+    margin-left: 20px;
+}
