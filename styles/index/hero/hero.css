@@ -1,17 +1,28 @@
 @import url(../../main/common.css);
 section#hero{
-    height: 600px;
+    height: 39rem;
     width: 100%;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hero .clouds{
+    position: absolute;
+    bottom: 0;
+    left: -26rem;
+    width: 140%;
+    z-index: -9;
 }
 #heroText{
+    margin-top: 4rem;
     position: relative;
     z-index: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 140px;
+    gap: 2rem;
 }
 #heroText > h1{
     width: 50rem;
@@ -20,8 +31,10 @@ section#hero{
     color: white;
     text-transform: uppercase;
     text-align: center;
+    margin-bottom: 0;
 }
 #heroText > p{
+    margin-top: 0;
     width: 40rem;
     text-align: center;
     color: white;
@@ -31,55 +44,52 @@ section#hero{
     line-height: 25px;
 }
 #skyImage{
-    height: 630px;
+    top: 0;
+    height: 100%;
     width: 100%;
     position: absolute;
-    z-index: -9;
+    z-index: -10;
     background-color:var(--color-hero);
-    bottom: 0;
-    
-}
-#skyImage > img{
-    max-width: unset;
-    max-height: unset;
-    background-size: cover;
-    
 }
 #doodlesImage{
     position: absolute;
     z-index: -8;
     bottom: 0;
-    right: 0;
+    right: -4rem;
 }
 #chickensImage{
     position: absolute;
     z-index: -8;
     bottom: 0;
+    left: -4rem;
 }
-#buttons > button{
-    width: 260px;
-    height: 55px;
+#buttons{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+#buttons > a{
+    padding: 0.9rem 4rem;
     background-color: var(--color-secondary-shade);
     font-size: large;
-    font-weight: bolder;
     border-radius: 25px;
     border: 0;
-    margin-top: 40px;
-    margin-left: 20px;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
 }
-#buttons button:nth-child(1){
+#buttons a:nth-child(1){
     background-color: white;
-}
-#buttons button:nth-child(1) a{
     color: black;
 }
-#buttons a{
-    text-decoration: none;
-    font-weight: bold;
-    color: white;
-}
-#buttons >button:hover{
-    color: var(--color-primary);
+#buttons >a:hover{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+#buttons a:nth-child(1):hover{
+    color: var(--color-primary);
 }
