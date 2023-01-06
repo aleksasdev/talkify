@@ -120,11 +120,8 @@ background-image: linear-gradient(135deg, #8547c6 10%, #b845c1 50%, #ab5d8a);
     text-align: center;
     background-color:#f6f6f6;
     padding: var(--padding-sides);
+    padding-bottom: 4rem;
+    padding-top: 4rem;
 }
 
-@media (max-width: 780px){
-    #info1{
-        display: flex;
-        flex-wrap: wrap;
-    }
-}
+
