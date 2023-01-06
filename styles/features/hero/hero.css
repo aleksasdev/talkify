@@ -1,3 +1,16 @@
-#heroVideo > iframe{
-    
+#hero{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+#heroText{
+    color: white;
+    position: relative;
+    width: 20%;
+}
+#video{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100%;
 }

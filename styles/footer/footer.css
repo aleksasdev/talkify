@@ -1,23 +1,23 @@
-@import url("../common.css");
-@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("../main/common.css");
 
 footer{
   color: white;
   background-color: var(--color-secondary-shade);
-  box-sizing: border-box;
-  padding: 5rem 7rem 4rem 7rem;  /* Šitą reikės pakeisti, jei norim visi suvienodinti. section-style klasės settingai labai toli nuo dizaino.. */
-  font-family: var(--font-display);
+  padding: var(--padding-sides);
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
+  display: flex;
+  gap: 2rem;
+  display: grid;
+  grid-template: 1fr max-content / 1fr;
 }
 
 .upperFooterWrap{
   border-bottom: 1px solid var(--color-primary);  
   display: flex;
   justify-content: space-between;
-  padding-bottom: 3rem;
+  gap: inherit;
 }
 
 .firstColumnWrap{
@@ -28,12 +28,11 @@ footer{
   width: 70%;
   display: flex;
   justify-content: space-between;
+  gap: inherit;
 }
 
 .slogan{
   font-size: 32px;
-  font-weight: 900;
-  font-family: 'Bowlby One SC', cursive;
   width: 200px;
   padding: 0;
   margin: 0;
@@ -93,7 +92,7 @@ footer{
 .lowerFooterWrap{
   display: flex;
   justify-content: space-between;
-  padding-top: 2rem;
+  gap: inherit;
 }
 
 .footerLogo{

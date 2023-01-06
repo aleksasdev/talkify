@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&family=Satisfy&display=swap');
-@import url('header/navbar.css');
-@import url('index/index-body.css');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+@import url('../header/navbar.css');
+@import url('../index/index-body.css');
+@import url('main.css');
 
 *{
    padding: 0;
@@ -15,6 +17,7 @@
    --padding2: 1rem;
    --padding3: 1.5rem;
    --padding4: 2rem;
+   --padding-sides: 0 20rem;
 
    --margin1: 0.5rem;
    --margin2: 1rem;
@@ -25,6 +28,8 @@
    --color-primary-tint: #7983f5;
    --color-primary-shade: #2331be;
 
+   --color-hero: #404EED;
+
    --color-secondary: #f6f6f6;
    --color-secondary-tint: #fff;
    --color-secondary-shade: #23272a;
@@ -33,12 +38,25 @@
 }
 
 .section-style{
-   margin: 2rem 0;
-   padding: 1rem 3rem;
-   column-gap: 4rem;
-   row-gap: 2rem;
+   padding-top: 4rem !important;
+   padding-bottom: 4rem !important;
+   padding: var(--padding-sides);
 }
 
 .text-highlight-style{
-   font-weight: 900;
+   font-family: 'Bowlby One SC', cursive;
 }
+
+/* Mobile */
+@media (max-width: 600px){
+   :root{
+      --padding-sides: 0 2rem;
+   }
+}
+/* Tablet */
+@media (max-width: 1400px){
+   :root{
+      --padding-sides: 0 3rem;
+   }
+}
+/* Desktop */
