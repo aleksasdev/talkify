@@ -93,3 +93,12 @@ section#hero{
 #buttons a:nth-child(1):hover{
     color: var(--color-primary);
 }
+
+@media (max-width: 1650px){
+    #doodlesImage{
+        right: -11rem;
+    }
+    #chickensImage{
+        left: -14rem;
+    }
+}
