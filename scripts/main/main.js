@@ -8,7 +8,10 @@ const PAGE_FEATURES = "features.html";
 const PAGE_SUBSCRIBE = "subscribe.html";
 
 function renderPage(){
-   new HeaderController().append(new Navbar().render());
+   console.log(PAGE_CURRENT);
+   if(PAGE_CURRENT !== PAGE_SUBSCRIBE){
+      new HeaderController().append(new Navbar().render());
+   }
 
    // Index page
    if(PAGE_CURRENT === PAGE_INDEX){
