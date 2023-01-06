@@ -25,7 +25,9 @@
    --color-primary-tint: #7983f5;
    --color-primary-shade: #2331be;
 
+
    --color-hero: #404EED;
+
 
    --color-secondary: #f6f6f6;
    --color-secondary-tint: #fff;
@@ -40,3 +42,8 @@
    column-gap: 4rem;
    row-gap: 2rem;
 }
+
+.text-highlight-style{
+   font-weight: 900;
+}
+
