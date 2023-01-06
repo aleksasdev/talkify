@@ -18,8 +18,6 @@ section#hero{
     font-size: 60px;
     color: white;
     text-transform: uppercase;
-    font-family:'Noto Sans', sans-serif;
-    font-weight: 900;
     text-align: center;
 }
 #heroText > p{
