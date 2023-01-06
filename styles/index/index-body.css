@@ -26,6 +26,7 @@ p{
 
 .infoPart{
     padding: 120px 40px;
+    transition: opacity .6s .1s,transform .6s ease;
 }
 
 .image{
